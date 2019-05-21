@@ -22,3 +22,7 @@ add_filter('previous_posts_link_attributes', 'posts_link_attributes');
 function posts_link_attributes() {
  	return 'class="link-primary"';
  }
+
+
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(1280,  720, true);
