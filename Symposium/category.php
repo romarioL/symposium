@@ -7,5 +7,6 @@
 		<p><?php  the_excerpt();?></p>
 	</div>
 <?php  endwhile; endif;?>
+<?php next_posts_link('Anteriores'); ?><?php previous_posts_link('Próximos')?>
 </div>
 <?php get_footer(); ?>
